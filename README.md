@@ -1,4 +1,4 @@
-# Task 1 - Java Backend and REST API
+# Java Backend and REST API
 
 ## Project Description
 This project implements a Spring Boot application providing REST APIs to manage "Task" objects.
