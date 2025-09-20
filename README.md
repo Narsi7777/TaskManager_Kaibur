@@ -29,7 +29,7 @@ mvn clean install
 # API TESTING 
 
 ## Creating Task
-Method: PUT
-URL: /tasks
+- Method: PUT
+- URL: /tasks
 
 <img width="959" height="599" alt="Put _task_1" src="https://github.com/user-attachments/assets/4be4bfc3-62cb-4d26-b1d9-a58fe0ee01d0" />
