@@ -11,7 +11,7 @@ Each Task represents a shell command that can be executed.
 - Spring Boot 3
 - Maven
 - MongoDB
-- Postman (for testing APIs)
+- Postman
 
 ---
 
@@ -23,3 +23,11 @@ Each Task represents a shell command that can be executed.
 ```bash
 cd taskmanager
 mvn clean install
+```
+---
+
+##API TESTING 
+
+#Creating Task
+
+
