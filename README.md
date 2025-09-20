@@ -26,8 +26,9 @@ mvn clean install
 ```
 ---
 
-##API TESTING 
+## API TESTING 
 
-#Creating Task
-
+# Creating Task
+Method: PUT
+URL: /tasks
 
