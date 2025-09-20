@@ -1,59 +1,38 @@
-# Java Backend and REST API
+# TaskManager Frontend
 
-## Project Description
-This project implements a Spring Boot application providing REST APIs to manage "Task" objects.
-Each Task represents a shell command that can be executed.
+A React 19 + TypeScript + Ant Design frontend for the TaskManager application.
 
----
+- **Features**:  
+  - Create Task  
+  - View Tasks  
+  - Search Tasks  
+  - Delete Tasks  
+  - Run Commands & View Output  
 
-## Technologies Used
-- Java 21
-- Spring Boot 3
-- Maven
-- MongoDB
-- Postman
+- **Backend URL**: `http://localhost:8080` (Spring Boot + MongoDB)
 
 ---
 
-## Running the Application
 
-1. Make sure MongoDB is running on your system.
-2. Build the project:
+## Project Setup
+
+1. Clone the repository:
 
 ```bash
-cd taskmanager
-mvn clean install
+git clone <your-frontend-repo-url>
+cd taskmanager-frontend
 ```
----
-
-# API TESTING 
-
 ## Creating Task
-- Method: PUT
-- URL: /tasks
+<img width="959" height="599" alt="1" src="https://github.com/user-attachments/assets/a4520f7c-5a37-44bb-abd6-8ef59c4f396c" />
+<img width="959" height="599" alt="2" src="https://github.com/user-attachments/assets/7c1a8cb9-ccb8-4382-bdbe-6ee6f683aab9" />
 
-<img width="959" height="599" alt="Put _task_1" src="https://github.com/user-attachments/assets/4be4bfc3-62cb-4d26-b1d9-a58fe0ee01d0" />
+## searching for Task
 
-## Get All Taska
-- Method: GET
-- URL: /tasks
-<img width="959" height="599" alt="get_1" src="https://github.com/user-attachments/assets/eb2e6c1d-3a67-455c-a022-076376a2e5f2" />
+<img width="959" height="599" alt="search1" src="https://github.com/user-attachments/assets/1ed90210-4653-415e-a237-b110952a2576" />
 
-## Search Task by Name
-- Method: GET
-- URL: /tasks/search?name=Hello
-  
-  <img width="959" height="599" alt="get_by_name" src="https://github.com/user-attachments/assets/f7660510-34ac-461a-ae7e-a9bc1a75ffe4" />
+## Deltinh Task
 
-## Run a Task Command
-- Method: PUT
-- URL: /tasks/1/run
-<img width="959" height="599" alt="put 3" src="https://github.com/user-attachments/assets/6eeae5f5-8a77-4f6d-89ba-4942a9d446df" />
+<img width="959" height="599" alt="del1" src="https://github.com/user-attachments/assets/6d860883-1c24-4b10-84c1-2e9d267ecbca" />
 
-
-## Delete a Task
-- Method: DELETE
-- URL: /tasks/1
-
-  <img width="954" height="599" alt="delete_by_id" src="https://github.com/user-attachments/assets/4fed92f2-2bf7-4881-b6f6-dfcb5cf38593" />
+<img width="955" height="596" alt="del2" src="https://github.com/user-attachments/assets/109a8b66-0591-4fe9-9ee9-e1e72b68545b" />
 
