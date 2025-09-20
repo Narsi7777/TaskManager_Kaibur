@@ -9,7 +9,6 @@ A React 19 + TypeScript + Ant Design frontend for the TaskManager application.
   - Delete Tasks  
   - Run Commands & View Output  
 
-- **Backend URL**: `http://localhost:8080` (Spring Boot + MongoDB)
 
 ---
 
@@ -19,7 +18,7 @@ A React 19 + TypeScript + Ant Design frontend for the TaskManager application.
 1. Clone the repository:
 
 ```bash
-git clone <your-frontend-repo-url>
+git clone uour url
 cd taskmanager-frontend
 ```
 ## Creating Task
